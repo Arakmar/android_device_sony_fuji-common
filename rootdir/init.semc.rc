@@ -153,6 +153,7 @@ on boot
 
     # LM35xx/cameralight
     chown system camera /sys/devices/i2c-3/3-0053/torch_enable
+    chmod 0666 /sys/devices/i2c-3/3-0053/torch_enable
     chown system camera /sys/devices/i2c-3/3-0053/torch_current
     chown system camera /sys/devices/i2c-3/3-0053/privacy_enable
     chown system camera /sys/devices/i2c-3/3-0053/privacy_current

@@ -153,8 +153,6 @@
     <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveBatteryLed">true</bool>
 
-    <bool name="config_autoBrightnessButtonKeyboard">true</bool>
-
     <bool name="config_ui_enableFadingMarquee">false</bool>
     
     <!-- Enable Google Network Location Services -->
